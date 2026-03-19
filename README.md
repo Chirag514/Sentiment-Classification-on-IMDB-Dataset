@@ -97,14 +97,25 @@ Final model achieved improved accuracy and stability
 
 ## Model Performance 
 
-| Model | Validation Accuracy |
-|------|---------------------|
-| RNN  | 56.45%               |
-| LSTM | 69.60%               |
-| GRU  | 83.70%               |
-| Ensemble (Weighted) | 83.45% |
+### Before Improvements
+| Model | Accuracy |
+|------|----------|
+| RNN  | 49.40% |
+| LSTM | 72.10% |
+| GRU  | 79.05% |
+
+---
+
+### After Improvements
+| Model | Accuracy |
+|------|----------|
+| RNN  | 56.45% |
+| LSTM | 69.60% |
+| GRU  | **83.70%** |
+| Ensemble (Weighted) | **83.45%** |
 | Ensemble (Soft Voting) | 82.60% | 
 | Ensemble (Hard Voting) | 76.85% |
+
 
 ---
 
